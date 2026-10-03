@@ -1,0 +1,1 @@
+/** @type {import('tailwindcss').Config} */ module.exports={content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{fontFamily:{sans:['Source Sans 3','sans-serif']},colors:{navy:'#102A43',blue:'#1D5EAA',soft:'#E8F1F8',gold:'#C9A13B',paper:'#F7F4ED'}}},plugins:[]}
