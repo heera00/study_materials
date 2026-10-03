@@ -1,0 +1,3 @@
+export type MaterialType='notes'|'pyq'|'assignment'|'lab'|'question-bank'|'syllabus'|'important-questions'|'reference'|'tutorial'|'other';
+export interface Material{id:string;title:string;description:string;department:string;semester:number;subject:string;courseCode?:string;type:MaterialType;academicYear?:string;examType?:string;unit?:string;tags:string[];fileName?:string;uploadedAt:string;featured:boolean;published:boolean;downloadCount:number}
+export interface Subject{id:string;name:string;courseCode:string;department:string;semester:number;description:string;resourceCount:number;active:boolean}
